@@ -335,6 +335,7 @@ class _Score_pageState extends State<Score_page> {
       robot1_parking_points = 0;
       robot1_selectedAscentLevel = 0;
     });
+    calculatingEndGamePoints();
   }
 
   void firstlevelascent_robot1() {
