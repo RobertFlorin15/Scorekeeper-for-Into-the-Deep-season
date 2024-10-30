@@ -1,4 +1,4 @@
-# scorekeeper_boogeybots
+# Scorekeeper for Into the Deep season by Boogeybots #19061
 
 A new Flutter project.
 
