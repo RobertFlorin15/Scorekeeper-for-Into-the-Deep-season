@@ -453,7 +453,10 @@ class _Score_pageState extends State<Score_page> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           "Autonomous: $auto_points",
-                          style: TextStyle(fontSize: 25, color: Colors.white),
+                          style: TextStyle(
+                              fontSize: 25,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
                         ),
                       )),
                   Divider(
@@ -477,6 +480,7 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
+                      Spacer(),
                       Padding(
                         padding: const EdgeInsets.all(5),
                         child: Container(
@@ -493,15 +497,18 @@ class _Score_pageState extends State<Score_page> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              alignment: Alignment.center),
-                          child: Text('+'),
-                          onPressed: increaseSampleNetZone_auto,
+                      Padding(
+                        padding: const EdgeInsets.only(right: 25),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleNetZone_auto,
+                          ),
                         ),
                       )
                     ],
@@ -516,6 +523,7 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
+                      Spacer(),
                       Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Container(
@@ -530,15 +538,18 @@ class _Score_pageState extends State<Score_page> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              alignment: Alignment.center),
-                          child: Text('+'),
-                          onPressed: increaseSampleLowBasket_auto,
+                      Padding(
+                        padding: const EdgeInsets.only(right: 25.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleLowBasket_auto,
+                          ),
                         ),
                       )
                     ],
@@ -553,6 +564,7 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
+                      Spacer(),
                       Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Container(
@@ -567,15 +579,18 @@ class _Score_pageState extends State<Score_page> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              alignment: Alignment.center),
-                          child: Text('+'),
-                          onPressed: increaseSampleHighBasket_auto,
+                      Padding(
+                        padding: const EdgeInsets.only(right: 25.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleHighBasket_auto,
+                          ),
                         ),
                       )
                     ],
@@ -590,6 +605,7 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
+                      Spacer(),
                       Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Container(
@@ -604,15 +620,18 @@ class _Score_pageState extends State<Score_page> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              alignment: Alignment.center),
-                          child: Text('+'),
-                          onPressed: increaseSpecimenLowChamber_auto,
+                      Padding(
+                        padding: const EdgeInsets.only(right: 25.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSpecimenLowChamber_auto,
+                          ),
                         ),
                       )
                     ],
@@ -627,6 +646,7 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
+                      Spacer(),
                       Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Container(
@@ -641,15 +661,18 @@ class _Score_pageState extends State<Score_page> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 50,
-                        child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              alignment: Alignment.center),
-                          child: Text('+'),
-                          onPressed: increaseSpecimenHighChamber_auto,
+                      Padding(
+                        padding: const EdgeInsets.only(right: 25.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSpecimenHighChamber_auto,
+                          ),
                         ),
                       )
                     ],
@@ -665,10 +688,13 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(fontSize: 17, color: Colors.white),
                         ),
                       ),
-                      Checkbox(
-                          value: isParkedChecked1,
-                          onChanged: Checked1,
-                          side: BorderSide(color: Colors.white, width: 3)),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 18.0),
+                        child: Checkbox(
+                            value: isParkedChecked1,
+                            onChanged: Checked1,
+                            side: BorderSide(color: Colors.white, width: 3)),
+                      ),
                     ],
                   ),
                   Row(
@@ -680,10 +706,13 @@ class _Score_pageState extends State<Score_page> {
                           style: TextStyle(fontSize: 17, color: Colors.white),
                         ),
                       ),
-                      Checkbox(
-                          value: isParkedChecked2,
-                          onChanged: Checked2,
-                          side: BorderSide(color: Colors.white, width: 3)),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 18.0),
+                        child: Checkbox(
+                            value: isParkedChecked2,
+                            onChanged: Checked2,
+                            side: BorderSide(color: Colors.white, width: 3)),
+                      ),
                     ],
                   ),
                 ],
@@ -707,7 +736,10 @@ class _Score_pageState extends State<Score_page> {
                         padding: const EdgeInsets.only(left: 10, top: 8),
                         child: Text(
                           'TeleOP: $teleop_points',
-                          style: TextStyle(fontSize: 25, color: Colors.white),
+                          style: TextStyle(
+                              fontSize: 25,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
@@ -734,6 +766,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -748,15 +781,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseSampleNetZone_tele,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseSampleNetZone_tele,
+                            ),
                           ),
                         )
                       ],
@@ -771,6 +807,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -785,15 +822,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseSampleLowBasket_tele,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseSampleLowBasket_tele,
+                            ),
                           ),
                         )
                       ],
@@ -808,6 +848,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -822,15 +863,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseSampleHighBasket_tele,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseSampleHighBasket_tele,
+                            ),
                           ),
                         )
                       ],
@@ -845,6 +889,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -859,15 +904,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseSpecimenLowChamber_tele,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseSpecimenLowChamber_tele,
+                            ),
                           ),
                         )
                       ],
@@ -882,6 +930,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -896,15 +945,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseSpecimenHighChamber_tele,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseSpecimenHighChamber_tele,
+                            ),
                           ),
                         )
                       ],
@@ -928,7 +980,10 @@ class _Score_pageState extends State<Score_page> {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             "EndGame: $endgame_points",
-                            style: TextStyle(fontSize: 25, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 25,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
                           ),
                         )),
                     Divider(
@@ -1142,7 +1197,10 @@ class _Score_pageState extends State<Score_page> {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             'Penalties: $penalty_points',
-                            style: TextStyle(fontSize: 25, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 25,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
                           )),
                     ),
                     Divider(
@@ -1157,6 +1215,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -1171,15 +1230,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseMinorPenalties,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseMinorPenalties,
+                            ),
                           ),
                         )
                       ],
@@ -1193,6 +1255,7 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
+                        Spacer(),
                         Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Container(
@@ -1207,15 +1270,18 @@ class _Score_pageState extends State<Score_page> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                padding: EdgeInsets.zero,
-                                alignment: Alignment.center),
-                            child: Text('+'),
-                            onPressed: increaseMajorPenalties,
+                        Padding(
+                          padding: const EdgeInsets.only(right: 15.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('+'),
+                              onPressed: increaseMajorPenalties,
+                            ),
                           ),
                         )
                       ],
