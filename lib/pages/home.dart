@@ -25,8 +25,8 @@ class home extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 67),
                   child: Container(
-                    height: 400,
-                    width: 400,
+                    height: 300,
+                    width: 300,
                     //color: Colors.black,
                     decoration: new BoxDecoration(
                         image: new DecorationImage(
@@ -36,10 +36,10 @@ class home extends StatelessWidget {
               ),
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.only(bottom: 150),
+                  padding: const EdgeInsets.only(bottom: 67),
                   child: SizedBox(
                     height: 100,
-                    width: 400,
+                    width: 300,
                     child: ElevatedButton(
                       child: Center(
                           child: Text(

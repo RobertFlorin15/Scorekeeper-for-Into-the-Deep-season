@@ -473,17 +473,36 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Text(
-                          'Samples in Net Zone: $samples_net_zone_auto',
+                          'Net Zone: $samples_net_zone_auto',
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
-                      ElevatedButton(
-                        child: Text('-'),
-                        onPressed: decreaseSampleNetZone_auto,
+                      Padding(
+                        padding: const EdgeInsets.all(5),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text(
+                              '-',
+                            ),
+                            onPressed: decreaseSampleNetZone_auto,
+                          ),
+                        ),
                       ),
-                      ElevatedButton(
-                        child: Text('+'),
-                        onPressed: increaseSampleNetZone_auto,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              alignment: Alignment.center),
+                          child: Text('+'),
+                          onPressed: increaseSampleNetZone_auto,
+                        ),
                       )
                     ],
                   ),
@@ -493,17 +512,34 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Text(
-                          'Samples in Low Basket: $samples_low_basket_auto',
+                          'Low Basket: $samples_low_basket_auto',
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
-                      ElevatedButton(
-                        child: Text('-'),
-                        onPressed: decreaseSampleLowBasket_auto,
+                      Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('-'),
+                            onPressed: decreaseSampleLowBasket_auto,
+                          ),
+                        ),
                       ),
-                      ElevatedButton(
-                        child: Text('+'),
-                        onPressed: increaseSampleLowBasket_auto,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              alignment: Alignment.center),
+                          child: Text('+'),
+                          onPressed: increaseSampleLowBasket_auto,
+                        ),
                       )
                     ],
                   ),
@@ -513,17 +549,34 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Text(
-                          'Samples in High Basket: $samples_high_basket_auto',
+                          'High Basket: $samples_high_basket_auto',
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
-                      ElevatedButton(
-                        child: Text('-'),
-                        onPressed: decreaseSampleHighBasket_auto,
+                      Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('-'),
+                            onPressed: decreaseSampleHighBasket_auto,
+                          ),
+                        ),
                       ),
-                      ElevatedButton(
-                        child: Text('+'),
-                        onPressed: increaseSampleHighBasket_auto,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              alignment: Alignment.center),
+                          child: Text('+'),
+                          onPressed: increaseSampleHighBasket_auto,
+                        ),
                       )
                     ],
                   ),
@@ -533,17 +586,34 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Text(
-                          'Specimens on Low Chamber: $specimen_low_chamber_auto',
+                          'Low Chamber: $specimen_low_chamber_auto',
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
-                      ElevatedButton(
-                        child: Text('-'),
-                        onPressed: decreaseSpecimenLowChamber_auto,
+                      Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('-'),
+                            onPressed: decreaseSpecimenLowChamber_auto,
+                          ),
+                        ),
                       ),
-                      ElevatedButton(
-                        child: Text('+'),
-                        onPressed: increaseSpecimenLowChamber_auto,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              alignment: Alignment.center),
+                          child: Text('+'),
+                          onPressed: increaseSpecimenLowChamber_auto,
+                        ),
                       )
                     ],
                   ),
@@ -553,17 +623,34 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Text(
-                          'Specimens on High Chamber: $specimen_high_chamber_auto',
+                          'High Chamber: $specimen_high_chamber_auto',
                           style: TextStyle(color: Colors.white, fontSize: 17),
                         ),
                       ),
-                      ElevatedButton(
-                        child: Text('-'),
-                        onPressed: decreaseSpecimenHighChamber_auto,
+                      Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('-'),
+                            onPressed: decreaseSpecimenHighChamber_auto,
+                          ),
+                        ),
                       ),
-                      ElevatedButton(
-                        child: Text('+'),
-                        onPressed: increaseSpecimenHighChamber_auto,
+                      Container(
+                        height: 50,
+                        width: 50,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              alignment: Alignment.center),
+                          child: Text('+'),
+                          onPressed: increaseSpecimenHighChamber_auto,
+                        ),
                       )
                     ],
                   ),
@@ -574,7 +661,7 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30),
                         child: Text(
-                          'Robot 1 parked (Ascent level 1 or Observation Zone): ',
+                          'Robot 1 parked: ',
                           style: TextStyle(fontSize: 17, color: Colors.white),
                         ),
                       ),
@@ -589,7 +676,7 @@ class _Score_pageState extends State<Score_page> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30),
                         child: Text(
-                          'Robot 2 parked (Ascent level 1 or Observation Zone): ',
+                          'Robot 2 parked: ',
                           style: TextStyle(fontSize: 17, color: Colors.white),
                         ),
                       ),
@@ -643,17 +730,34 @@ class _Score_pageState extends State<Score_page> {
                         Padding(
                           padding: const EdgeInsets.only(left: 30.0),
                           child: Text(
-                            'Samples in Net Zone: $samples_net_zone_tele',
+                            'Net Zone: $samples_net_zone_tele',
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseSampleNetZone_tele,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseSampleNetZone_tele,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseSampleNetZone_tele,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleNetZone_tele,
+                          ),
                         )
                       ],
                     ),
@@ -663,17 +767,34 @@ class _Score_pageState extends State<Score_page> {
                         Padding(
                           padding: const EdgeInsets.only(left: 30.0),
                           child: Text(
-                            'Samples in Low Basket: $samples_low_basket_tele',
+                            'Low Basket: $samples_low_basket_tele',
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseSampleLowBasket_tele,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseSampleLowBasket_tele,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseSampleLowBasket_tele,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleLowBasket_tele,
+                          ),
                         )
                       ],
                     ),
@@ -683,17 +804,34 @@ class _Score_pageState extends State<Score_page> {
                         Padding(
                           padding: const EdgeInsets.only(left: 30.0),
                           child: Text(
-                            'Samples in High Basket: $samples_high_basket_tele',
+                            'High Basket: $samples_high_basket_tele',
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseSampleHighBasket_tele,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseSampleHighBasket_tele,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseSampleHighBasket_tele,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSampleHighBasket_tele,
+                          ),
                         )
                       ],
                     ),
@@ -703,17 +841,34 @@ class _Score_pageState extends State<Score_page> {
                         Padding(
                           padding: const EdgeInsets.only(left: 30.0),
                           child: Text(
-                            'Specimens on Low Chamber: $specimen_low_chamber_tele',
+                            'Low Chamber: $specimen_low_chamber_tele',
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseSpecimenLowChamber_tele,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseSpecimenLowChamber_tele,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseSpecimenLowChamber_tele,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSpecimenLowChamber_tele,
+                          ),
                         )
                       ],
                     ),
@@ -723,17 +878,34 @@ class _Score_pageState extends State<Score_page> {
                         Padding(
                           padding: const EdgeInsets.only(left: 30.0),
                           child: Text(
-                            'Specimens on High Chamber: $specimen_high_chamber_tele',
+                            'High Chamber: $specimen_high_chamber_tele',
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseSpecimenHighChamber_tele,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseSpecimenHighChamber_tele,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseSpecimenHighChamber_tele,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseSpecimenHighChamber_tele,
+                          ),
                         )
                       ],
                     ),
@@ -772,50 +944,91 @@ class _Score_pageState extends State<Score_page> {
                         ),
                       ),
                     ),
-                    Container(
-                        child: Row(
-                          children: [
-                            ElevatedButton(
-                              child: Text('No'),
-                              onPressed: noascent_robot1,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot1_selectedAscentLevel == 0
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL1'),
-                              onPressed: firstlevelascent_robot1,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot1_selectedAscentLevel == 1
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL2'),
-                              onPressed: secondlevelascent_robot1,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot1_selectedAscentLevel == 2
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL3'),
-                              onPressed: thirdlevelascent_robot1,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot1_selectedAscentLevel == 3
-                                          ? Colors.grey
-                                          : Colors.white),
-                            )
-                          ],
-                        ),
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white, width: 4),
-                            borderRadius: BorderRadius.circular(20))),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('No'),
+                                  onPressed: noascent_robot1,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot1_selectedAscentLevel == 0
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.horizontal(
+                                              left: Radius.circular(20),
+                                              right: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A1'),
+                                  onPressed: firstlevelascent_robot1,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot1_selectedAscentLevel == 1
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.vertical(
+                                              top: Radius.circular(0),
+                                              bottom: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A2'),
+                                  onPressed: secondlevelascent_robot1,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot1_selectedAscentLevel == 2
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.vertical(
+                                              top: Radius.circular(0),
+                                              bottom: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A3'),
+                                  onPressed: thirdlevelascent_robot1,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot1_selectedAscentLevel == 3
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.horizontal(
+                                              left: Radius.circular(0),
+                                              right: Radius.circular(20))),
+                                      elevation: 0),
+                                ),
+                              )
+                            ],
+                          ),
+                          decoration: BoxDecoration(
+                              color: Color.fromRGBO(109, 25, 60, 1),
+                              border: Border.all(color: Colors.white, width: 4),
+                              borderRadius: BorderRadius.circular(25))),
+                    ),
                     Padding(
                       padding: const EdgeInsets.only(left: 30),
                       child: Align(
@@ -826,50 +1039,91 @@ class _Score_pageState extends State<Score_page> {
                         ),
                       ),
                     ),
-                    Container(
-                        child: Row(
-                          children: [
-                            ElevatedButton(
-                              child: Text('No'),
-                              onPressed: noascent_robot2,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot2_selectedAscentLevel == 0
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL1'),
-                              onPressed: firstlevelascent_robot2,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot2_selectedAscentLevel == 1
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL2'),
-                              onPressed: secondlevelascent_robot2,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot2_selectedAscentLevel == 2
-                                          ? Colors.grey
-                                          : Colors.white),
-                            ),
-                            ElevatedButton(
-                              child: Text('LVL3'),
-                              onPressed: thirdlevelascent_robot2,
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor:
-                                      robot2_selectedAscentLevel == 3
-                                          ? Colors.grey
-                                          : Colors.white),
-                            )
-                          ],
-                        ),
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white, width: 4),
-                            borderRadius: BorderRadius.circular(20))),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('No'),
+                                  onPressed: noascent_robot2,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot2_selectedAscentLevel == 0
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.horizontal(
+                                              left: Radius.circular(20),
+                                              right: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A1'),
+                                  onPressed: firstlevelascent_robot2,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot2_selectedAscentLevel == 1
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.vertical(
+                                              top: Radius.circular(0),
+                                              bottom: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A2'),
+                                  onPressed: secondlevelascent_robot2,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot2_selectedAscentLevel == 2
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.vertical(
+                                              top: Radius.circular(0),
+                                              bottom: Radius.circular(0))),
+                                      elevation: 0),
+                                ),
+                              ),
+                              Container(
+                                height: 50,
+                                width: MediaQuery.of(context).size.width * 0.2,
+                                child: ElevatedButton(
+                                  child: Text('A3'),
+                                  onPressed: thirdlevelascent_robot2,
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor:
+                                          robot2_selectedAscentLevel == 3
+                                              ? Colors.grey
+                                              : Colors.white,
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.horizontal(
+                                              left: Radius.circular(0),
+                                              right: Radius.circular(20))),
+                                      elevation: 0),
+                                ),
+                              )
+                            ],
+                          ),
+                          decoration: BoxDecoration(
+                              color: Color.fromRGBO(109, 25, 60, 1),
+                              border: Border.all(color: Colors.white, width: 4),
+                              borderRadius: BorderRadius.circular(25))),
+                    ),
                   ],
                 ),
                 decoration: BoxDecoration(
@@ -903,13 +1157,30 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseMinorPenalties,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseMinorPenalties,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseMinorPenalties,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseMinorPenalties,
+                          ),
                         )
                       ],
                     ),
@@ -922,13 +1193,30 @@ class _Score_pageState extends State<Score_page> {
                             style: TextStyle(color: Colors.white, fontSize: 17),
                           ),
                         ),
-                        ElevatedButton(
-                          child: Text('-'),
-                          onPressed: decreaseMajorPenalties,
+                        Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 50,
+                            width: 50,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                  padding: EdgeInsets.zero,
+                                  alignment: Alignment.center),
+                              child: Text('-'),
+                              onPressed: decreaseMajorPenalties,
+                            ),
+                          ),
                         ),
-                        ElevatedButton(
-                          child: Text('+'),
-                          onPressed: increaseMajorPenalties,
+                        Container(
+                          height: 50,
+                          width: 50,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                alignment: Alignment.center),
+                            child: Text('+'),
+                            onPressed: increaseMajorPenalties,
+                          ),
                         )
                       ],
                     ),
